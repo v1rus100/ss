@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Salma</title>
+    <link rel="shortcut icon" href="./img/header/fav.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./public/style.css">
+</head>
+<body>
+<header>
+    <nav class="bg-myGray ">
+        <div class="container mx-auto flex justify-between items-center py-5 px-20">
+            <a class="flex" href="#">
+                <img src="img/logo.svg" alt="Logo">
+            </a>
+            <ul class="flex gap-10 relative">
+                <li><a href="#" class="text-xs uppercase hover:text-myRed transition-colors">Home</a></li>
+                <li><a href="#" class="text-xs uppercase hover:text-myRed transition-colors">Shop</a></li>
+                <li><a href="#" class="text-xs uppercase hover:text-myRed transition-colors">About</a></li>
+                <li><a href="#" class="text-xs uppercase hover:text-myRed transition-colors">Journal</a></li>
+                <li><a href="#" class="text-xs uppercase hover:text-myRed transition-colors">Contact</a></li>
+                <li><a href="#"><img src="img/header/bag.svg" alt="bag"></a></li>
+                <li class="absolute bg-myRed text-xs font-bold  nav__counter js-cart-counter cursor-default"
+                    data-cart-count="">0
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <section>
+        <div class="container mx-auto pb-20">
+            <div class="h-[720px] bg-no-repeat bg-cover relative hover:shadow-lg transition duration-300 ease-in-out"
+                 style="background-image: url('img/section-1/section-1bg.jpeg')"
+            >
+                <div class="w-[460px] text-center absolute left-20 top-1/2 -translate-y-1/2">
+                    <span class="block text-white text-xs uppercase pb-4">Eco-Relax. Made with 100% GOTS</span>
+                    <h1 class="text-white text-[56px] leading-[56px] pb-11">Organic cotton, free from harmful
+                        substances.</h1>
+                    <button class="text-white text-xs uppercase bg-black rounded py-3.5 px-8 hover:bg-white transition-colors
+                     hover:text-black transition-colors">
+                        Shop the Collection
+                    </button>
+                </div>
+
+            </div>
+            <div class="gap-2 columns-2 pt-2">
+                <div class="overflow-hidden">
+                    <div class="relative  bg-no-repeat bg-cover  h-[636px] w-full hover:scale-110 transition duration-300 ease-in-out"
+                         style="background-image: url('img/section-1/shop-new.jpeg')"
+                    >
+                        <div class="absolute left-11 bottom-11 divide-y">
+                            <h3 class="text-white text-4xl pb-3 ">Shop New in</h3>
+                            <span class="block text-white text-xs uppercase pt-1">Shop now</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="overflow-hidden">
+                    <div class="w-full relative  bg-no-repeat bg-cover h-[636px] w-full hover:scale-110 transition duration-300 ease-in-out"
+                         style="background-image: url('img/section-1/shop-bestsellers.jpeg')"
+                    >
+                        <div class="absolute left-11 bottom-11 divide-y">
+                            <h3 class="text-white text-4xl pb-3 ">Shop Bestsellers</h3>
+                            <span class="block text-white text-xs uppercase pt-1">Shop now</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+<script src="./js/main.js"></script>
+</html>

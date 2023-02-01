@@ -1,0 +1,23 @@
+{
+  "name": "salma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/main.css -o ./public/style.css --watch",
+    "build": "npx tailwindcss -i ./src/main.css -o ./public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/vasbok.senuk.17/salma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/vasbok.senuk.17/salma/issues"
+  },
+  "homepage": "https://gitlab.com/vasbok.senuk.17/salma#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
